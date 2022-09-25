@@ -1,0 +1,340 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  width: 100%;
+  height: 10vh;
+  position: relative;
+}
+nav ul a{
+  padding:7px 15px ;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.one{
+  width: 100px;
+  height: 6vh;
+  padding-top: 15px;
+}
+.onee{
+  width: 50px;
+  height: 2vh;
+  position: absolute;
+  top: 35%;
+  left: 74%;
+}
+nav i{
+  position: absolute;
+  top:35%;
+  left:72% ;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin-right: 200px;
+}
+nav li{
+  padding: 20px;
+  font-size: 25px;
+}
+nav li:hover{
+  color: blue;
+}
+nav a:hover{
+  background-color: blueviolet;
+  color: cornsilk;
+}
+nav .two{
+  height: 30px;
+  padding: 9px 10px 7px 10px;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 22px;
+  right: 80px;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+/* end navvvvvv barrrrrr */
+
+
+.head{
+  background-color: blue;
+  width: 100%;
+  height:60vh;
+  display: grid;
+  grid-template-columns:30% 70%;
+  position: relative;
+
+}
+.part11 {
+  text-align: left;
+  height:60vh ;
+  background-color: whitesmoke;
+  
+}
+ .head .part11 .nn {
+  position: relative;
+  top: 150px;
+  left:150px ;
+ 
+
+ }
+ .head .part11 h2{
+  font-size: 30px;
+ }
+ .head .part11 p{
+  margin-top: 9px;
+  
+ }
+ .head .part11 a{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 50px;
+  color: white;
+  background-color: blue;
+  padding: 9px 25px;
+  font-size: 25px;
+  border-radius: 10px;
+ }
+ .head .part11 a:hover{
+  background-color: cadetblue;
+  color: black;
+ }
+
+ 
+ .head .part1 img{
+  width:  25%;
+  height: 55vh;
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+ }
+ .chose{
+  display: grid;
+  margin-top: 9px;
+ 
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 15px;
+ }
+ .dd{
+  width: 100%;
+  height: 40vh;
+ }
+  /* start productttts */
+ .part3{
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% ;
+  gap: 90px 10px;
+  justify-content: center;
+ }
+ .part3 div{
+  text-align: center;
+ }
+ .aa{
+  margin: 70px 0px 5px 250px;
+  font-size: 20px;
+ }
+ .zz{
+  margin: 10px 0px 80px 240px;
+  font-size: 40px;
+ }
+ .part3 h3{
+margin: 7px 0px 7px 0px ;
+ }
+ span{
+  border: 0px 0px 0px 0px;
+  border-bottom: 3px blue solid;
+ }
+   /* start baccckgroound2 */
+   .back2{
+    width: 100%;
+    height: 45vh;
+    background-image:url(../assets/images/bac2.png) ;
+    background-size: 100% 45vh ;
+    margin-top: 100px;
+    
+   }
+   .ba{
+    position: relative;
+    top: 130px;
+    left: 450px;
+   }
+.back2 h4{
+  font-size: 30px;
+}
+.back2 h5{
+  margin: 15px 0px;
+  font-size: 25px;
+  position: relative;
+  left: 35px;
+ 
+}
+.back2 p{
+  position: relative;
+  left: 10px;
+
+}
+.back2 a{
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 9px 25px;
+  font-size: 25px;
+  border-radius: 15px
+}
+.back2 a:hover{
+  background-color: cadetblue;
+  color: black;
+ }
+
+ 
+  .ll{
+    
+      margin: 70px 0px 5px 250px;
+      font-size: 20px;
+      margin-top: 100px;
+     }
+     /* starrt the laaast */
+     .last{
+      display: grid;
+      grid-template-columns:30% 30% 30% ;
+      gap: 90px px;
+      justify-content: flex-end;
+     }
+     .last div{
+      position: relative;
+      left: 50px;
+      text-align: left;
+     }
+     pre{
+      opacity: 0.5;
+      margin-top: 20px;
+      margin-bottom: 15px;
+     }
+     .last p{
+      opacity: 0.5;
+      margin-top: 5px;
+     }
+     .last h1{
+      margin-top: 20px;
+      margin-bottom: 350px;
+     }/* enn this */
+     .we{
+      width:100%;
+      height: 20vh;
+      background-color: rgb(44, 44, 97);
+      position: relative;
+     }
+     .we div{
+      text-align: center;
+     }
+     .we .wee{
+      width: 65%;
+      background-color:white;
+      height: 22vh;
+      text-align: center;
+      padding-top: 60px;
+      position: absolute;
+      left: 300px;
+      top: -200px;
+      border: 1px black solid;
+     }
+     .we .wee p{
+      margin-top: 10px;
+      margin-bottom: 20px;
+     }
+     .we .wee input{
+      padding: 10px 15px 10px 15px;
+      border-radius: 8px;
+      width: 300px;
+     }
+     .we .wee a{
+     margin-left: 50px;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: blue;
+      padding: 8px 25px;
+      font-size: 15px;
+      border-radius: 15px
+     }
+     .we .wee a:hover{
+      background-color: cadetblue;
+      color: black;
+     }
+     /* start footer */
+
+     .footer{
+      width: 100%;
+      height: 55vh;
+      background-color:rgb(44, 44, 97) ;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20%;
+      justify-content: center;
+      column-gap: 50px;
+      position: relative;
+     }
+     .footer h6:not(.yy){
+      color:white ;
+      font-size: 30px;
+      padding-bottom: 40px;
+     }
+     .footer .yy{
+      font-size: 20px;
+      color: white;
+      padding-left: 50px;
+     }
+    .footer div{
+      padding: 15px;
+      color: rgba(232, 254, 247,0.5);
+    }
+    .footer .waw i{
+      position: absolute;
+      top: 85px;
+      font-size: 30px;
+      color: rgb(152, 75, 224);
+    }
+    .footer .waw2 i{
+      position: absolute;
+      top: 178px;
+      font-size: 30px;
+      color: rgb(152, 75, 224);
+    }
+    .footer .waw3 i{
+      position: absolute;
+      top: 280px;
+      font-size: 30px;
+      color: rgb(152, 75, 224);
+    }
+    .footer .maw{
+      position: absolute;
+      right: 250px;
+    }
+    .footer .maw2{
+      position: absolute;
+      right: 320px;
+    }
+  
+
+
+  
+  
+
+
+  
+
+
+ 
+
+
+
